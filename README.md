@@ -6,4 +6,6 @@ For this project, I will design a landing page for an imaginary dog service comp
 All of the images used in this project are credited below:
 
 Images:
-<!-- Add credits here -->
+
+* A [photo](https://www.freepik.com/free-vector/paw-print-sticker-animal-vector-clipart-paper-textured-design_19085851.htm?query=dog) of a cartoon paw print by [rawpixel.com](https://www.rawpixel.com/) from [freepik.com](https://www.freepik.com/)
+* A [photo](https://unsplash.com/photos/T-0EW-SEbsE) of two dogs walking on a dirt road by [Alvan Nee](https://unsplash.com/@alvannee) from [Unsplash](https://unsplash.com/)
