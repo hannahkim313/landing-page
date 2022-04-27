@@ -16,6 +16,7 @@ ul {
 }
 
 a {
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -31,7 +32,8 @@ button {
 /* Selectors relating to the header section */
 
 .header {
-    background-color: #edd4b9;
+    color: #ffffff;
+    background-color: #614234;
     /* Flexbox properties */
     display: flex;
     flex-direction: column;
@@ -83,7 +85,7 @@ button {
 .header .content .right-container {
     width: 50%;
     height: 200px;
-    background-color: #eeeeee;
+    background-color: #9a9a9a;
     /* Flexbox properties */
     display: flex;
     justify-content: center;
