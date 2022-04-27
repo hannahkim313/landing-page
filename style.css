@@ -103,8 +103,9 @@ button:hover {
 }
 
 .header .content .right-container .image {
-    width: 100%;
+    max-width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
 /* Selectors relating to the services section */
