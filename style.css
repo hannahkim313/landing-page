@@ -98,7 +98,7 @@ button:hover {
 
 .header .content .right-container {
     width: 50%;
-    height: 200px;
+    height: 300px;
     background-color: #9a9a9a;
     /* Flexbox properties */
     display: flex;
