@@ -38,6 +38,8 @@ a {
 }
 
 .header .content {
+    padding: 0 165px 100px;
+    /* Flexbox properties */
     display: flex;
     justify-content: space-between;
     align-items: center;
