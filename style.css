@@ -28,6 +28,8 @@ button {
     flex-direction: column;
 }
 
+/* Selectors relating to the header section */
+
 .header {
     background-color: #e0c3ac;
     /* Flexbox properties */
@@ -87,3 +89,27 @@ button {
     justify-content: center;
     align-items: center;
 }
+
+/* Selectors relating to the services section */
+
+/*
+    Code goes here 
+*/
+
+/* Selectors relating to the testimonial section */
+
+/*
+    Code goes here 
+*/
+
+/* Selectors relating to the action section */
+
+/*
+    Code goes here 
+*/
+
+/* Selectors relating to the footer section */
+
+/*
+    Code goes here 
+*/
