@@ -22,6 +22,17 @@ a {
 
 button {
     font-size: 18px;
+    color: #ffffff;
+    padding: 8px 24px;
+    background-color: #a28364;
+    border: none;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    color:#a28364;
+    background-color: #ffffff;
 }
 
 .page {
