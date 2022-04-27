@@ -69,7 +69,7 @@ button:hover {
 }
 
 .header .content {
-    padding: 0 165px 100px;
+    padding: 0 165px 115px;
     gap: 45px;
     /* Flexbox properties */
     display: flex;
