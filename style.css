@@ -55,6 +55,7 @@ button:hover {
     /* Flexbox properties */
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header .top .logo {
