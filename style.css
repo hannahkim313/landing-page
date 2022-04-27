@@ -30,7 +30,7 @@ a {
     flex-direction: column;
 }
 
-.header .container {
+.header .top {
     display: flex;
     justify-content: space-between;
 }
