@@ -60,10 +60,12 @@ button:hover {
 
 .header .top .logo {
     font-size: 24px;
+    padding-right: 15px;
 }
 
 .header .top .links {
     font-size: 18px;
+    padding-left: 15px;
 }
 
 .header .content {
