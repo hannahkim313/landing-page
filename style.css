@@ -76,7 +76,7 @@ button:hover {
 
 .header .content .left-container {
     width: 50%;
-    height: 200px;
+    height: auto;
     gap: 15px;
     /* Flexbox properties */
     display: flex;
