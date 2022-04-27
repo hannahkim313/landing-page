@@ -53,6 +53,7 @@ a {
     /* Flexbox properties */
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .header .content .right-container {
@@ -61,4 +62,6 @@ a {
     background-color: #eeeeee;
     /* Flexbox properties */
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
