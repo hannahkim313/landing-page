@@ -9,6 +9,8 @@ body {
 
 ul {
     list-style-type: none;
+    /* Flexbox properties */
+    display: flex;
 }
 
 a {
@@ -22,6 +24,7 @@ a {
 
 .header {
     background-color: #e0c3ac;
+    /* Flexbox properties */
     display: flex;
     flex-direction: column;
 }
