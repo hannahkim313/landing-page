@@ -9,6 +9,7 @@ body {
 
 ul {
     list-style-type: none;
+    gap: 15px;
     /* Flexbox properties */
     display: flex;
 }
