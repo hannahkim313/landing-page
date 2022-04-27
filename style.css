@@ -19,6 +19,10 @@ a {
     text-decoration: none;
 }
 
+button {
+    font-size: 18px;
+}
+
 .page {
     display: flex;
     flex-direction: column;
@@ -38,6 +42,14 @@ a {
     justify-content: space-between;
 }
 
+.header .top .logo {
+    font-size: 24px;
+}
+
+.header .top .links {
+    font-size: 18px;
+}
+
 .header .content {
     padding: 0 165px 100px;
     gap: 45px;
@@ -55,6 +67,15 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.header .content .title {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.header .content .info {
+    font-size: 18px;
 }
 
 .header .content .right-container {
