@@ -100,6 +100,10 @@ button:hover {
 .header .content .right-container {
     width: 50%;
     height: auto;
+    /* Flexbox properties */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header .content .right-container .image {
