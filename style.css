@@ -46,11 +46,18 @@ a {
 }
 
 .header .content .left-container {
+    width: 50%;
+    height: 200px;
     gap: 15px;
+    /* Flexbox properties */
     display: flex;
     flex-direction: column;
 }
 
 .header .content .right-container {
+    width: 50%;
+    height: 200px;
+    background-color: #eeeeee;
+    /* Flexbox properties */
     display: flex;
 }
