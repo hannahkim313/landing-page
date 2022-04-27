@@ -31,6 +31,8 @@ a {
 }
 
 .header .top {
+    padding: 15px 165px 100px;
+    /* Flexbox properties */
     display: flex;
     justify-content: space-between;
 }
