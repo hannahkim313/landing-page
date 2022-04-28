@@ -108,12 +108,12 @@ button:hover {
     justify-content: center;
 }
 
-.header .content .title {
+.header .content .left-container .title {
     font-size: 48px;
     font-weight: 800;
 }
 
-.header .content .info {
+.header .content .left-container .info {
     font-size: 18px;
 }
 
