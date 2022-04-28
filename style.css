@@ -133,9 +133,64 @@ button:hover {
 
 /* Selectors relating to the services section */
 
-/*
-    Code goes here 
-*/
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services .title {
+
+}
+
+.services .examples {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services .examples .daycare {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 0;
+}
+
+.services .examples .daycare .text {
+    text-align: center;
+}
+
+.services .examples .boarding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 0;
+}
+
+.services .examples .boarding .text {
+    text-align: center;
+}
+
+.services .examples .grooming {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 0;
+}
+
+.services .examples .grooming .text {
+    text-align: center;
+}
+
+.services .examples .training {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 0;
+}
+
+.services .examples .training .text {
+    text-align: center;
+}
 
 /* Selectors relating to the testimonial section */
 
