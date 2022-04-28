@@ -134,6 +134,16 @@ button:hover {
 /* Selectors relating to the services section */
 
 .services {
+    padding: 50px 165px 100px;
+    /* Flexbox properties */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services .content {
+    gap: 50px;
+    /* Flexbox properties */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -145,11 +155,14 @@ button:hover {
 }
 
 .services .examples {
+    gap: 15px;
     display: flex;
     justify-content: space-between;
 }
 
 .services .examples .daycare {
+    gap: 15px;
+    /* Flexbox properties */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -161,6 +174,8 @@ button:hover {
 }
 
 .services .examples .boarding {
+    gap: 15px;
+    /* Flexbox properties */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -172,6 +187,8 @@ button:hover {
 }
 
 .services .examples .grooming {
+    gap: 15px;
+    /* Flexbox properties */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -183,6 +200,8 @@ button:hover {
 }
 
 .services .examples .training {
+    gap: 15px;
+    /* Flexbox properties */
     display: flex;
     flex-direction: column;
     align-items: center;
