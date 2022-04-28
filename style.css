@@ -152,10 +152,13 @@ button:hover {
 .services .title {
     font-size: 36px;
     font-weight: 800;
+    color: #614234;
 }
 
 .services .examples {
-    gap: 15px;
+    font-size: 18px;
+    color: #614234;
+    gap: 30px;
     display: flex;
     justify-content: space-between;
 }
