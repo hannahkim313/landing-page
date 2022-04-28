@@ -140,7 +140,8 @@ button:hover {
 }
 
 .services .title {
-
+    font-size: 36px;
+    font-weight: 800;
 }
 
 .services .examples {
