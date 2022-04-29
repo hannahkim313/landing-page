@@ -259,8 +259,14 @@ a:hover {
 
 /* Selectors relating to the footer section */
 
-/*
-    Code goes here 
-*/
-
-/* Reminder: Make left and right padding of entire page bigger (tighter content) */
+.footer {
+    color: #ffffff;
+    gap: 15px;
+    background-color: #614234;
+    /* Change 0 */
+    padding: 30px 0;
+    /* Flexbox properties */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
