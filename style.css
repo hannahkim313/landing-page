@@ -25,21 +25,6 @@ a:hover {
     color: #a28364;
 }
 
-button {
-    font-size: 18px;
-    color: #ffffff;
-    padding: 8px 24px;
-    background-color: #a28364;
-    border: none;
-    border-radius: 10px;
-    transition-duration: 0.4s;
-}
-
-button:hover {
-    color:#a28364;
-    background-color: #ffffff;
-}
-
 .page {
     display: flex;
     flex-direction: column;
@@ -114,6 +99,21 @@ button:hover {
 
 .header .content .left-container .info {
     font-size: 18px;
+}
+
+.header .content .left-container button {
+    font-size: 18px;
+    color: #ffffff;
+    padding: 8px 24px;
+    background-color: #a28364;
+    border: none;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+
+.header .content .left-container button:hover {
+    color:#a28364;
+    background-color: #ffffff;
 }
 
 .header .content .right-container {
