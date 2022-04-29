@@ -217,12 +217,49 @@ a:hover {
 
 /* Selectors relating to the action section */
 
-/*
-    Code goes here 
-*/
+.action {
+    padding: 100px 100px;
+}
+
+.action .container {
+    background-color: #a28364;
+    padding: 30px 65px;
+    gap: 165px;
+    border-radius: 10px;
+    /* Flexbox properties */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action .container .text {
+    font-size: 18px;
+    color: #ffffff;
+    /* Flexbox properties */
+    flex: 1 1 0;
+}
+
+.action .container button {
+    font-size: 18px;
+    color: #ffffff;
+    padding: 8px 24px;
+    background-color: #a28364;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    /* Flexbox properties */
+    flex: 1 1 0;
+}
+
+.action .container button:hover {
+    color:#a28364;
+    background-color: #ffffff;
+}
 
 /* Selectors relating to the footer section */
 
 /*
     Code goes here 
 */
+
+/* Reminder: Make left and right padding of entire page bigger (tighter content) */
