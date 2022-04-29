@@ -89,7 +89,7 @@ button:hover {
 }
 
 .header .content {
-    padding: 0 165px 115px;
+    padding: 0 165px 100px;
     gap: 45px;
     /* Flexbox properties */
     display: flex;
@@ -201,9 +201,19 @@ button:hover {
 
 /* Selectors relating to the testimonial section */
 
-/*
-    Code goes here 
-*/
+.testimonial {
+    font-size: 36px;
+    color: #614234;
+    background-color: #d7d0c6;
+    padding: 100px 165px;
+    /* Flexbox properties */
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial .author {
+    text-align: end;
+}
 
 /* Selectors relating to the action section */
 
