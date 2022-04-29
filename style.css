@@ -135,7 +135,7 @@ a:hover {
 /* Selectors relating to the services section */
 
 .services {
-    padding: 50px 165px 100px;
+    padding: 50px 215px 100px;
     gap: 50px;
     /* Flexbox properties */
     display: flex;
@@ -205,7 +205,8 @@ a:hover {
     font-size: 36px;
     color: #614234;
     background-color: #d7d0c6;
-    padding: 100px 165px;
+    padding: 100px 245px;
+    gap: 15px;
     /* Flexbox properties */
     display: flex;
     flex-direction: column;
@@ -218,13 +219,13 @@ a:hover {
 /* Selectors relating to the action section */
 
 .action {
-    padding: 100px 100px;
+    padding: 100px 185px;
 }
 
 .action .container {
     background-color: #a28364;
-    padding: 30px 65px;
-    gap: 165px;
+    padding: 30px 60px;
+    gap: 30px;
     border-radius: 10px;
     /* Flexbox properties */
     display: flex;
