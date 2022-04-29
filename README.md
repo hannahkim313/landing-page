@@ -1,5 +1,7 @@
 # Landing Page
 
+https://hannahkim313.github.io/landing-page/
+
 ## Project Summary
 
 This project exercise, created by The Odin Project, is an example of a common landing page design used by many businesses. In order to guide myself through the overall structure of his project, I decided to create a user persona for an imaginary dog service company (_A Place for Dogs_) that offers daycare, boarding, grooming, and training services. This project will demonstrate my ability to create a simple landing page from scratch using HTML and CSS with a particular emphasis on Flexbox.
