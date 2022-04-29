@@ -135,10 +135,65 @@ button:hover {
 
 .services {
     padding: 50px 165px 100px;
+    gap: 50px;
     /* Flexbox properties */
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.services .title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #614234;
+}
+
+.services .content {
+    gap: 15px;
+    /* Flexbox properties */
+    display: flex;
+    flex-direction: column;
+}
+
+.services .content .image {
+    width: 100%;
+    height: auto;
+    gap: 30px;
+    /* Flexbox properties */
+    display: flex;
+}
+
+.services .content .image .daycare,
+.services .content .image .boarding,
+.services .content .image .grooming,
+.services .content .image .training {
+    width: 15%;
+    height: auto;
+    /* Flexbox properties */
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.services .content .info {
+    font-size: 18px;
+    color: #614234;
+    text-align: center;
+    gap: 30px;
+    /* Flexbox properties */
+    display: flex;
+    justify-content: space-between;
+}
+
+.services .content .info .daycare,
+.services .content .info .boarding,
+.services .content .info .grooming,
+.services .content .info .training {
+    gap: 15px;
+    /* Flexbox properties */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 0;
 }
 
 /* Selectors relating to the testimonial section */
