@@ -158,62 +158,55 @@ a:hover {
     align-items: center;
 }
 
-.services .title {
+.services .section-title {
     font-size: 36px;
     font-weight: 800;
     color: #614234;
 }
 
-/* Selectors relating to the main content of the services section */
-
-.services .content {
-    gap: 20px;
-    /* Flexbox properties */
-    display: flex;
-    flex-direction: column;
-}
-
-.services .content .image {
+.services .content-container {
     width: 100%;
     height: auto;
-    gap: 30px;
-    /* Flexbox properties */
-    display: flex;
-}
-
-.services .content .image .daycare,
-.services .content .image .boarding,
-.services .content .image .grooming,
-.services .content .image .training {
-    width: 15%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    /* Flexbox properties */
-    display: flex;
-    flex: 1 1 auto;
-}
-
-.services .content .info {
     font-size: 18px;
     color: #614234;
     text-align: center;
     gap: 30px;
     /* Flexbox properties */
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.services .content .info .daycare,
-.services .content .info .boarding,
-.services .content .info .grooming,
-.services .content .info .training {
+.services .content-container .daycare,
+.services .content-container .boarding,
+.services .content-container .grooming,
+.services .content-container .training {
+    min-width: 175px;
+    max-width: 300px;
+    height: auto;
     gap: 15px;
     /* Flexbox properties */
     display: flex;
     flex-direction: column;
-    align-items: center;
-    flex: 1 1 0;
+    flex: 1;
+}
+
+.services .content-container .image-container {
+    width: 100%;
+    height: auto;
+    /* Flexbox properties */
+    display: flex;
+    justify-content: center;
+}
+
+.services .content-container .image {
+    min-width: 175px;
+    max-width: 150px;
+    height: 140px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* Flexbox properties */
+    flex: 1;
 }
 
 /*
