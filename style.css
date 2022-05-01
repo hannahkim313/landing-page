@@ -230,14 +230,14 @@ a:hover {
     flex-wrap: wrap;
 }
 
-.testimonial .quote,
-.testimonial .author {
+.testimonial .content-container .quote,
+.testimonial .content-container .author {
     min-width: 300px;
     height: auto;
     flex: 1;
 }
 
-.testimonial .author {
+.testimonial .content-container .author {
     text-align: end;
 }
 
