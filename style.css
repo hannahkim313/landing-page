@@ -46,7 +46,7 @@ a:hover {
 
 /* Selectors relating to the top part of the header */
 
-.header .top {
+.header .heading-container {
     padding: 15px 165px 100px;
     /* Flexbox properties */
     display: flex;
@@ -54,9 +54,7 @@ a:hover {
     align-items: center;
 }
 
-.header .top .logo {
-    width: 30%;
-    height: auto;
+.header .logo-container {
     padding-right: 15px;
     gap: 15px;
     /* Flexbox properties */
@@ -64,24 +62,24 @@ a:hover {
     align-items: center;
 }
 
-.header .top .logo .image {
-    max-width: 20%;
+.header .logo-container .image {
+    max-width: 50px;
     height: auto;
     border-radius: 50%;
 }
 
-.header .top .logo .text {
+.header .logo-container .business-title {
     font-size: 24px;
 }
 
-.header .top .links {
+.header .logo-container .links {
     font-size: 18px;
     padding-left: 15px;
 }
 
 /* Selectors relating to the main content of the header */
 
-.header .content {
+.header .content-container {
     padding: 0 165px 100px;
     gap: 45px;
     /* Flexbox properties */
@@ -91,7 +89,7 @@ a:hover {
     flex-wrap: wrap;
 }
 
-.header .content .left-container {
+.header .left-container {
     min-width: 300px;
     height: auto;
     gap: 15px;
@@ -102,16 +100,16 @@ a:hover {
     flex: 1;
 }
 
-.header .content .left-container .title {
+.header .left-container .business-title {
     font-size: 48px;
     font-weight: 800;
 }
 
-.header .content .left-container .info {
+.header .left-container .text {
     font-size: 18px;
 }
 
-.header .content .left-container button {
+.header .left-container button {
     font-size: 18px;
     color: #ffffff;
     padding: 8px 24px;
@@ -121,12 +119,12 @@ a:hover {
     transition-duration: 0.4s;
 }
 
-.header .content .left-container button:hover {
+.header .left-container button:hover {
     color:#a28364;
     background-color: #ffffff;
 }
 
-.header .content .right-container {
+.header .right-container {
     min-width: 300px;
     height: auto;
     /* Flexbox properties */
@@ -136,7 +134,7 @@ a:hover {
     flex: 1;
 }
 
-.header .content .right-container .image {
+.header .right-container .image {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
