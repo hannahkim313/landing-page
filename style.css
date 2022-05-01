@@ -162,6 +162,8 @@ a:hover {
     color: #614234;
 }
 
+/* Selectors relating to the main content of the services section */
+
 .services .content-container {
     width: 100%;
     height: auto;
@@ -218,10 +220,21 @@ a:hover {
     color: #614234;
     background-color: #d7d0c6;
     padding: 100px 245px;
+}
+
+.testimonial .content-container {
     gap: 15px;
     /* Flexbox properties */
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.testimonial .quote,
+.testimonial .author {
+    min-width: 300px;
+    height: auto;
+    flex: 1;
 }
 
 .testimonial .author {
